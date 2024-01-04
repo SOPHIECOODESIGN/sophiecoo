@@ -1,0 +1,117 @@
+/* ACCESS CSS */
+
+/* top header mv */
+header .mv {
+    background-image: url(../images/access_images/access_mv_bg.jpg);
+}
+
+/* nav current */
+header nav li:nth-child(6) {
+    border: 4px double #fff;
+    padding: 0 10px;
+    box-sizing: border-box;
+    font-size: 24px;
+}
+
+main .access{
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+main .access img{
+    margin-bottom: 20px;
+}
+
+
+main .logo{
+    text-align: center;
+    margin-bottom: 100px;
+}
+
+main .hayama, .glenegle, .hq{
+    border: 10px double #e3cbc3;
+    padding: 30px;
+    box-sizing: border-box;
+    margin-bottom: 150px;
+}
+
+main .store_img{
+    margin-bottom: 30px;
+}
+
+main address{
+    font-size: 20px;
+    font-style: normal;
+    line-height: 2.5;
+    margin-bottom: 30px;
+}
+
+main h2{
+    font-size: 35px;
+    margin-bottom: 20px;
+}
+
+main h3{
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+main .store, main .location{
+    padding: 20px;
+}
+
+main .location p{
+    margin-bottom: 15px;
+}
+
+main .hq{
+    margin-bottom: 100px;
+}
+
+main .hq section
+{
+    padding: 50px;
+}
+
+
+/* top footer image */
+footer {
+    background-image: url(../images/top_images/top_footer_bg.jpg);
+}
+
+/* f_nav current */
+footer nav li:nth-child(6) {
+    border: 4px double #fff;
+    padding: 0 10px;
+    box-sizing: border-box;
+}
+
+
+/*--------------SP-----------------------*/
+@media screen and (max-width: 640px) {
+
+/* nav current HBG BTN 用 */
+header nav li:nth-child(6){
+    border: none;
+    font-size: xx-large;
+    font-weight: bold;
+    }
+ /*-------------------------*/
+
+
+main .hayama, .glenegle, .hq{
+    margin: 0 5%;
+    padding: 20px;
+    margin-bottom: 50px;
+}
+
+main iframe{
+    width: 100%;
+}
+
+main .hq section{
+padding: 20px;
+}
+
+
+}

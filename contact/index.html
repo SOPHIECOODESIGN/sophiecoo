@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="../assets/css/common.css">
+    <link rel="stylesheet" href="../assets/css/contact.css">
+    <link rel="icon" href="../favicon.ico">
+
+    <script src="../assets/js/jquery-3.6.1.min.js"></script>
+    <script src="../assets/js/common.js"></script>
+    <script src="../assets/js/contact.js"></script>
+
+
+    <title>CONTACT | SOPHIE COO</title>
+</head>
+
+
+<!-- index.html CONTACT -->
+
+<body>
+
+    <header>
+        <div class="mv">
+            <div class="wrap">
+                <!-- HBG BTN用追記 -->
+                <input type="checkbox" id="overlay-input" />
+                <label for="overlay-input" id="overlay-button"><span></span></label>
+
+
+                <div id="overlay">
+                    <!-- HBG BTN用追記-->
+                    <nav>
+                        <ul class="ds_f jc_sb">
+                            <li><a href="../index.html"><span>HOME</span><span>ホーム</span></a></li>
+                            <li><a href="../about_us/index.html"><span>ABOUT US</span><span>私たちについて</span></a></li>
+                            <li><a href="../the_thread/index.html"><span>THE THREAD</span><span>ザ &middot;
+                                        スレッド</span></a></li>
+                            <li><a href="../the_souvenir/index.html"><span>THE SOUVENIR</span><span>ザ &middot;
+                                        スーベニア</span></a></li>
+                            <li><a href="../the_deck/index.html"><span>THE DECK</span><span>ザ &middot; デッキ</span></a>
+                            </li>
+                            <li><a href="../access/index.html"><span>STORE ACCESS</span><span>アクセス</span></a></li>
+                            <li>CONTACT US</li>
+                        </ul>
+                    </nav>
+                </div>
+
+                <div class="logo">
+                    <h1><img src="../assets/images/common_images/main_logo_w_l.png" alt="Sophie Coo ロゴマーク"></h1>
+                    <p>トータルライフデザイン<br>
+                        ソフィー クー</p>
+                </div>
+
+                <div id="scrolldown">
+                    <div class="scroll"><span>Scroll</span></div>
+                </div>
+
+
+            </div>
+            <!-- wrap closed -->
+        </div>
+    </header>
+    <!-- ここまでMVのBG以外共通 -->
+
+    <!-- ここから各ページ別 -->
+    <main>
+
+        <div class="inner">
+
+            <div class="form_top">
+                <img class="logo" src="../assets/images/contact_images/main_logo_p_s.png" alt="Sophie Coo のロゴ">
+                <h2>CONTACT US</h2>
+                <p>お問合せ</p>
+
+            </div>
+
+            <div>
+
+                <form action="program.php" method="POST">
+                    <div class="contact">
+
+                        <!--input-->
+                        <div id="name_section">
+                            <dl>
+                                <dt>NAME &#47; 名前 &#58; <br><span>必須</span></dt>
+                                <dd><input type="text" name="NAME" id="name" placeholder="Sophie Coo "></dd>
+                                <dd class="alert">未入力です</dd>
+                            </dl>
+                        </div>
+
+                        <div id="kana_section">
+                            <dl>
+                                <dt>フリガナ &#58; </dt>
+                                <dd><input type="text" name="KANA" id="kana" placeholder="ソフィー　クー"></dd>
+                            </dl>
+                        </div>
+
+                        <div id="tel_section">
+                            <dl>
+                                <dt>Phone &#47; 電話番号 &#58; <br><span>必須</span></dt>
+                                <dd><input type="tel" name="TEL" id="tel" placeholder="00-0000-0000"></dd>
+                                <dd class="alert">未入力です</dd>
+                            </dl>
+                        </div>
+
+                        <div id="email_section">
+                            <dl>
+                                <dt>E-mail &#47; メールアドレス &#58; <br><span>必須</span></dt>
+                                <dd><input type="email" name="EMAIL" id="email" placeholder="info@sophiecoo.com"></dd>
+                                <dd class="alert">未入力です</dd>
+                            </dl>
+                        </div>
+
+                        <div id="emailchk_section">
+                            <dl>
+                                <dt>メールアドレス(確認用) &#58; <br><span>必須</span></dt>
+                                <dd><input type="email" name="EMAIL" id="emailchk" placeholder="info@sophiecoo.com">
+                                </dd>
+                                <dd class="alert">未入力です</dd>
+                            </dl>
+                        </div>
+
+
+                        <!--free text-->
+                        <div id="textarea_section">
+                            <dl>
+                                <dt>お問い合わせ内容 &#58; <br><span>必須</span></dt>
+                                <dd><textarea name="message" cols="30" rows="15" placeholder="こちらに入力してください"></textarea>
+                                </dd>
+                                <dd class="alert">未入力です</dd>
+                            </dl>
+
+                            <!--submit btn-->
+                            <div class="submit_btn">
+
+                                <input type="submit" value="送信 &#47; SUBMIT">
+                                
+                            </div>
+                        </div>
+
+                    </div>
+                    <!--.contact closed-->
+                </form>
+            </div>
+
+
+            <div id="the_deck_phone">
+                <img class="logo" src="../assets/images/contact_images/deck_logo_p_s.png" alt="The deck のロゴ">
+
+                <section>
+                    <p>レストラン予約はお電話で
+                    </p>
+                    <h2>The Deck 専用電話</h2>
+                    <p class="phone_number"><a href="#">00-0000-0000</a></p>
+                </section>
+            </div>
+
+
+
+            <!-- totop全ページ共通 -->
+            <div class="totop wrap">
+                <a href="#"><img src="../assets/images/common_images/totop.png" alt="トップへ戻るボタン"></a>
+            </div>
+
+        </div>
+        <!-- inner close -->
+    </main>
+
+
+    <!--以下BG img以外共通-->
+    <footer>
+        <div class="wrap">
+            <div class="footer_access ds_f jc_sb">
+                <section>
+                    <h3>Sophie Coo THE STORE</h3>
+                    <h4>HAYAMA</h4>
+                    <Address>
+                        <dl>
+                            <dt>所在地</dt>
+                            <dd>〒240-0112 神奈川県三浦郡<br>
+                                葉山町堀内922-2
+                            </dd>
+                            <dt>TEL</dt>
+                            <dd>000-0000-0000</dd>
+                            <dt>営業時間</dt>
+                            <dd>10:00 - 20:00</dd>
+                            <dt>The Deck 営業時間</dt>
+                            <dd>11:00 - 23:00(lo.22:30)</dd>
+                        </dl>
+                    </Address>
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d407.1544078610455!2d139.57138843336685!3d35.27527652954812!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6018470099991935%3A0xc40f7ed8e3cb35ab!2z5qOu5oi45rW35bK4!5e0!3m2!1sja!2sjp!4v1667972923651!5m2!1sja!2sjp" width="300" height="200" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </section>
+
+                <div>
+                    <a class="footer_logo" href="../index.html"><img
+                            src="../assets/images/common_images/main_logo_w_m.png" alt="Sophie Cooロゴマーク"></a>
+
+                    <ul class="sns ds_f ds_f jc_sb">
+                        <li><a href="https://www.twitter.com/" target="_blank"><img
+                                    src="../assets/images/common_images/twitter.png" alt="twitterへのリンク"></a>
+                        </li>
+                        <li><a href="https://www.instagram.com/" target="_blank"><img
+                                    src="../assets/images/common_images/instagram.png" alt="instagramへのリンク"></a>
+                        </li>
+                        <li><a href="https://www.facebook.com/" target="_blank"><img
+                                    src="../assets/images/common_images/facebook.png" alt="facebookへのリンク"></a>
+                        </li>
+                    </ul>
+                </div>
+
+                <section>
+                    <h3>Sophie Coo THE STORE</h3>
+                    <h4>Glenegle beach</h4>
+                    <Address>
+                        <dl>
+                            <dt>所在地</dt>
+                            <dd>16 Holdfast Promenade<br>
+                                Glenelg SA 5045 Australia
+                            </dd>
+                            <dt>TEL</dt>
+                            <dd>+0 00-0000-0000</dd>
+                            <dt>営業時間</dt>
+                            <dd>10:00 - 20:00</dd>
+                            <dt>The Deck 営業時間</dt>
+                            <dd>11:00 - 23:00(lo.22:30)</dd>
+                        </dl>
+                    </Address>
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d1374.5007440508364!2d138.51067310227975!3d-34.97835500098803!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6ab0db1af2372253%3A0xae9ab4164ef70166!2sGlenalg%20Beach!5e0!3m2!1sja!2sjp!4v1667972982142!5m2!1sja!2sjp" width="300" height="200" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </section>
+            </div>
+            <!--footer_access close -->
+
+            <nav class="f_nav">
+                <ul class="ds_f jc_sb">
+                    <li><a href="../index.html">HOME</a></li>
+                    <li><a href="../about_us/index.html">ABOUT US</a></li>
+                    <li><a href="../the_thread/index.html">THE THREAD</a></li>
+                    <li><a href="../the_souvenir/index.html">THE SOUVENIR</a></li>
+                    <li><a href="../the_deck/index.html">THE DECK</a></li>
+                    <li><a href="../access/index.html">ACCESS</a></li>
+                    <li>CONTACT</li>
+                </ul>
+            </nav>
+
+
+            <p class="copyright">
+                <small>SOPHIE COO &copy; ALL RIGHT RESERVED 2022</small>
+            </p>
+        </div>
+        <!-- wrap closed -->
+    </footer>
+
+
+</body>
+
+</html>

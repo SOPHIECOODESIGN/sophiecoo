@@ -1,0 +1,134 @@
+/* THE THREAD CSS */
+
+/* top header mv */
+header .mv {
+    background-image: url(../images/the_thread_images/thread_mv_bg.jpg);
+}
+
+/* nav current */
+header nav li:nth-child(3) {
+    border: 4px double #fff;
+    padding: 0 10px;
+    box-sizing: border-box;
+    font-size: 24px;
+}
+
+
+main .the_thread {
+    margin-bottom: 100px;
+    align-items: center;
+}
+
+main .the_thread p{
+    text-align: center;
+    font-size: 20px;
+    padding: 20px;
+    line-height: 2.5;
+    box-sizing: border-box;
+}
+
+main .macrame_catalog {
+    margin-bottom: 100px;
+}
+
+main .macrame_catalog img {
+    margin-bottom: 30px;
+}
+
+main .macrame_catalog p {
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+main .macrame_catalog .new {
+color: #8f735a;
+    text-align: center;
+    border: 1px dotted #8f735a;
+    padding: 0 2px;
+    box-sizing: border-box;
+}
+
+main .macrame_studio {
+    margin-bottom: 100px;
+}
+
+main .macrame_studio h2 {
+    text-align: center;
+    font-size: 30px;
+    margin: 50px 0;
+}
+
+
+main .macrame_studio p {
+    text-align: center;
+    font-size: 20px;
+    padding: 0 20px;
+    line-height: 2.5;
+    box-sizing: border-box;
+}
+
+main .banner {
+    display: block;
+    text-align: center;
+    margin-bottom: 100px;
+}
+
+/* top footer image */
+footer {
+    background-image: url(../images/top_images/top_footer_bg.jpg);
+}
+
+/* nav current */
+footer nav li:nth-child(3) {
+    border: 4px double #fff;
+    padding: 0 10px;
+    box-sizing: border-box;
+}
+
+/*--------------SP-----------------------*/
+@media screen and (max-width: 640px) {
+
+
+main div{
+    text-align: center;
+}
+
+
+/* f_nav current HBG BTN 用 */
+header nav li:nth-child(3){
+    border: none;
+    font-size: xx-large;
+    font-weight: bold;
+    }
+ /*-------------------------*/
+
+
+main .the_thread p br, main .macrame_studio p br{
+    display: none;
+}
+
+main .the_thread p, main .macrame_studio p{
+    text-align: justify;
+}
+
+main .macrame_catalog{
+    margin-bottom: 50px;
+}
+
+main .macrame_catalog div{
+    margin-bottom: 30px;
+}
+
+main .macrame_catalog img {
+    margin-bottom: 10px;
+}
+
+main .macrame_studio{
+    padding-top: 100px;
+}
+main .macrame_studio h2{
+    font-size: 28px;
+}
+
+
+}

@@ -1,0 +1,123 @@
+/* ABOUT SOPHIE COO CSS */
+
+/* top header mv */
+header .mv {
+    background-image: url(../images/aboutus_images/aboutus_mv_bg.jpg);
+}
+
+/* nav current */
+header nav li:nth-child(2) {
+    border: 4px double #fff;
+    padding: 0 10px;
+    box-sizing: border-box;
+    font-size: 24px;
+}
+
+main .logo {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+
+/*じわっとcontents表示*/
+
+.blur{
+    animation-name:blurAnime;
+    animation-duration:1s;
+    animation-fill-mode:forwards;
+  }
+  
+  @keyframes blurAnime{
+    from {
+    filter: blur(10px);
+    transform: scale(1.02);
+    opacity: 0;
+    }
+  
+    to {
+    filter: blur(0);
+    transform: scale(1);
+    opacity: 1;
+    }
+  }
+   
+  .blurTrigger{
+      opacity: 0;
+  }
+/*じわっとcontents表示 ここまで*/
+
+
+
+
+main #about_sc,
+#about_store {
+    margin-bottom: 200px;
+
+}
+
+main section {
+    text-align: center;
+}
+
+main h2 {
+    font-size: 30px;
+    margin: 50px 0;
+}
+
+main p {
+    font-size: 18px;
+    padding: 0 20px;
+    line-height: 2.5;
+    box-sizing: border-box;
+}
+
+main .banner {
+    margin-bottom: 100px;
+}
+
+/* top footer image */
+footer {
+    background-image: url(../images/top_images/top_footer_bg.jpg);
+}
+
+/* f_nav current */
+footer nav li:nth-child(2) {
+    border: 4px double #fff;
+    padding: 0 10px;
+    box-sizing: border-box;
+}
+
+
+/*--------------SP-----------------------*/
+@media screen and (max-width: 640px) {
+
+
+    /* nav current HBG BTN 用 */
+header nav li:nth-child(2){
+    border: none;
+    font-size: xx-large;
+    font-weight: bold;
+    }
+ /*-------------------------*/
+
+main div{text-align: center;
+}
+
+
+main p{
+    text-align: justify;
+}
+
+br{
+    display: none;
+}
+
+main #about_sc, main #about_store{
+    margin-bottom: 100px;
+}
+
+main .banner img{
+    margin-bottom: 50px;
+}
+
+}

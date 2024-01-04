@@ -1,0 +1,175 @@
+/* CONTACT CSS */
+
+/* top header mv */
+header .mv {
+    background-image: url(../images/contact_images/contact_mv_bg.jpg);
+}
+
+/* nav current */
+header nav li:nth-child(7) {
+    border: 4px double #fff;
+    padding: 0 10px;
+    box-sizing: border-box;
+    font-size: 24px;
+}
+
+main form {
+    margin-bottom: 150px;
+}
+
+main .form_top {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+main .form_top img {
+    margin-bottom: 20px;
+}
+
+main .contact {
+    width: 100%;
+    background-color: rgba(227, 203, 195, .3);
+    font-size: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 5% 10%;
+    box-sizing: border-box;
+}
+
+main form span {
+    font-size: 16px;
+    color: #4e4f04;
+}
+
+main form dl {
+    height: 80px;
+}
+
+main form #textarea_section dl {
+    min-height: 200px;
+}
+
+main form dt {
+    float: left;
+    clear: left;
+    width: 35%;
+    line-height: 1.2;
+    margin-top: 8px;
+}
+
+main form dd {
+    margin-left: 35%;
+}
+
+main form label {
+    width: 30%;
+}
+
+main form .alert {
+    color: rgb(255, 0, 119);
+    font-size: 16px;
+}
+
+main form input[type="text"],
+main form input[type="tel"],
+main form input[type="email"] {
+    height: 23px;
+    line-height: 23px;
+    width: 100%;
+}
+
+main form textarea {
+    height: 100px;
+    width: 100%;
+    resize: none;
+}
+
+.submit_btn {
+    text-align: center;
+}
+
+
+main #the_deck_phone {
+    text-align: center;
+    margin-bottom: 100px;
+}
+
+main #the_deck_phone p {
+    font-size: 20px
+}
+
+main #the_deck_phone h2 {
+    font-size: 30px;
+    color: #4e4f04;
+}
+
+
+main #the_deck_phone img {
+    margin-bottom: 50px;
+}
+
+main #the_deck_phone .phone_number a {
+    font-size: 80px;
+    color: #4e4f04;
+    padding: 10px;
+}
+
+main #the_deck_phone .phone_number a:hover{
+color: #4e4f0450;
+transition: .5s;
+
+
+}
+
+
+
+
+/* top footer image */
+footer {
+    background-image: url(../images/top_images/top_footer_bg.jpg);
+}
+
+/* f_nav current */
+footer nav li:nth-child(7) {
+    border: 4px double #fff;
+    padding: 0 10px;
+    box-sizing: border-box;
+}
+
+/*--------------SP-----------------------*/
+@media screen and (max-width: 640px) {
+
+
+    /* nav current HBG BTN 用 */
+header nav li:nth-child(7){
+    border: none;
+    font-size: xx-large;
+    font-weight: bold;
+    }
+ /*-------------------------*/
+
+
+    main form {
+        margin: 0 5%;
+        margin-bottom: 100px;
+    }
+
+    main .contact {
+        padding: 5%;
+    }
+
+    main form dt,
+    main form dt span {
+        font-size: 51%;
+    }
+
+    main form .alert {
+        font-size: 10px;
+    }
+
+
+    main #the_deck_phone .phone_number a {
+        font-size: 46px;
+    }
+
+}

@@ -1,0 +1,231 @@
+/* THE DECK CSS */
+
+/* top header mv */
+header .mv {
+    background-image: url(../images/the_deck_images/deck_mv_bg.jpg);
+}
+
+/* nav current */
+header nav li:nth-child(5) {
+    border: 4px double #fff;
+    padding: 0 10px;
+    box-sizing: border-box;
+    font-size: 24px;
+}
+
+main .the_deck {
+    margin-bottom: 100px;
+    align-items: center;
+}
+
+
+main .the_deck p {
+    text-align: center;
+    font-size: 20px;
+    padding: 20px;
+    line-height: 2.5;
+    box-sizing: border-box;
+}
+
+main .famous {
+    margin-bottom: 100px;
+}
+
+main .famous img {
+    margin-bottom: 30px;
+}
+
+main .famous h2 {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+main .famous p {
+    text-align: center;
+    font-size: 20px;
+}
+
+main .famous span {
+    color: #4e4f04;
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+main .others {
+    margin-bottom: 100px;
+}
+
+main .others .food,
+.drink {
+    width: 500px;
+    height: auto;
+    padding: 30px;
+    box-sizing: border-box;
+    border: 10px double #c5bebf;
+    background-image: url(../images/the_deck_images/deck_logo_p_s.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+
+main .others h3 {
+    text-align: center;
+}
+
+main .others p {
+    text-align: center;
+    margin-bottom: 30px;
+
+}
+
+main .others dt {
+    float: left;
+    clear: left;
+    line-height: 2.5em;
+}
+
+main .others dd {
+    text-align: end;
+    line-height: 2.5em;
+
+}
+
+
+main #special {
+    margin-bottom: 100px;
+}
+
+main .morocco_special {
+    background-color: rgba(227, 203, 195, .3);
+    margin-bottom: 50px;
+}
+
+
+main .morocco_special h2 {
+    text-align: center;
+    font-size: 30px;
+    margin: 10px 0;
+}
+
+main .morocco_special h3 {
+    font-size: 26px;
+    text-align: center;
+}
+
+main .morocco_special p {
+    text-align: center;
+    font-size: 20px;
+    padding: 20px 30px;
+    line-height: 2.5;
+    box-sizing: border-box;
+}
+
+main #special{
+    padding-top: 50px;
+}
+
+main #special h4 {
+    text-align: center;
+}
+
+main .banner {
+    margin-bottom: 100px;
+}
+
+
+/* top footer image */
+footer {
+    background-image: url(../images/top_images/top_footer_bg.jpg);
+}
+
+/*f_nav current */
+footer nav li:nth-child(5) {
+    border: 4px double #fff;
+    padding: 0 10px;
+    box-sizing: border-box;
+}
+
+
+/*--------------SP-----------------------*/
+@media screen and (max-width: 640px) {
+
+    /* nav current HBG BTN 用 */
+header nav li:nth-child(5){
+    border: none;
+    font-size: xx-large;
+    font-weight: bold;
+    }
+ /*-------------------------*/
+
+
+    main div {
+        text-align: center;
+    }
+
+
+    main .the_deck p br {
+        display: none;
+    }
+
+    main .the_deck p {
+        text-align: justify;
+    }
+
+    main .famous {
+        margin: 0 5%;
+        box-sizing: border-box;
+    }
+
+    main .famous section {
+        margin-bottom: 50px;
+    }
+
+    main .famous img {
+        margin-bottom: 10px;
+    }
+
+    main .famous h2 {
+        font-size: 24px;
+        margin-bottom: 10px;
+    }
+
+    main .famous p,
+    main .famous span {
+        font-size: 14px;
+    }
+
+    main .food,
+    main .drink {
+        max-width: 90%;
+        margin: 0 5%;
+        margin-bottom: 30px;
+    }
+
+    main .morocco_special img {
+        padding-top: 30px;
+    }
+
+    main .morocco_special br {
+        display: none;
+    }
+
+    main .morocco_special h2,
+    main .morocco_special p {
+        text-align: justify;
+    }
+
+    main .morocco_special h2{
+        text-align: center;
+        font-size: 24px;
+    }
+
+    main .morocco_special h2 span{
+        display: none;
+        }
+
+
+    main .banner img {
+        margin-bottom: 50px;
+    }
+
+}
